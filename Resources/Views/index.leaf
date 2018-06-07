@@ -2,13 +2,13 @@
 <html>
     <head>
         <title>Halloween</title>
-        <link rel="stylesheet" href="HalloweenStyle.css">
+        <link rel="stylesheet" href="/styles/style.css">
         <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     </head>
     <body>
       <div class="wrapper">
         <div class="header">
-          <img class="logo"src="images/Halloween/logo.png" alt="">
+          <img class="logo"src="images/logo.png" alt="">
           <ul class="menu">
             <li><a href="#">Jack O Lantern</a></li>
             <li><a href="#">Wicked</a></li>

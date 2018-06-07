@@ -13,11 +13,11 @@ a {
 
 body {
   background-color: #333;
-  background-image: url(images/Halloween/bg.png);
+  background-image: url(images/bg.png);
 }
 
 .wrapper {
-  background-image: url(images/Halloween/rope.png);
+  background-image: url(images/rope.png);
   background-position: center top;
   background-repeat: repeat-y;
   width: 960px;
@@ -51,7 +51,7 @@ body {
 }
 
 .contents .section {
-  background-image: url(images/Halloween/wood-bg.png);
+  background-image: url(images/wood-bg.png);
   margin: 30px 0;
   padding: 20px;
   color: #e0c5a1;
@@ -67,7 +67,7 @@ body {
   margin-bottom: 20px;
   height: 230px;
   line-height: 230px;
-  background-image: url(images/Halloween/jack.png);
+  background-image: url(images/jack.png);
   background-repeat: no-repeat;
   background-position: right;
   font-family: 'Shadows Into Light', cursive;
@@ -76,19 +76,19 @@ body {
 }
 
 .contents .section h2.wicked {
-  background-image: url(images/Halloween/wicked2.png);
+  background-image: url(images/wicked2.png);
   background-position: left;
   color: firebrick;
   text-indent: 260px;
 }
 
 .contents .section h2.bat {
-  background-image: url(images/Halloween/moon.png);
+  background-image: url(images/moon.png);
   color: darkviolet;
 }
 
 .contents .section h2.ghost {
-  background-image: url(images/Halloween/ghost.png);
+  background-image: url(images/ghost.png);
   background-position: left;
   color: azure;
   text-indent: 260px;
