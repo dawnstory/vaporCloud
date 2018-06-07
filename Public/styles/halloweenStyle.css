@@ -1,0 +1,107 @@
+body, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #333;
+  background-image: url(images/Halloween/bg.png);
+}
+
+.wrapper {
+  background-image: url(images/Halloween/rope.png);
+  background-position: center top;
+  background-repeat: repeat-y;
+  width: 960px;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+}
+
+.header .logo {
+  margin: 30px;
+}
+
+.header .menu {
+  width: 300px;
+  margin: 0 auto;
+}
+
+.header .menu li {
+  margin-bottom: 5px;
+  font-size: 25px;
+}
+
+.header .menu li a {
+  background-color: #4e3434;
+  color: antiquewhite;
+  display: block;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.contents .section {
+  background-image: url(images/Halloween/wood-bg.png);
+  margin: 30px 0;
+  padding: 20px;
+  color: #e0c5a1;
+  border: 10px solid #672c2c;
+  border-radius: 30px;
+  box-shadow: inset 5px 5px 20px black;
+}
+
+.contents .section h2 {
+  color: aquamarine;
+  font-size: 110px;
+  letter-spacing: -1px;
+  margin-bottom: 20px;
+  height: 230px;
+  line-height: 230px;
+  background-image: url(images/Halloween/jack.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: 'Shadows Into Light', cursive;
+  text-indent: 20px;
+  text-shadow: 5px 5px 10px #000;
+}
+
+.contents .section h2.wicked {
+  background-image: url(images/Halloween/wicked2.png);
+  background-position: left;
+  color: firebrick;
+  text-indent: 260px;
+}
+
+.contents .section h2.bat {
+  background-image: url(images/Halloween/moon.png);
+  color: darkviolet;
+}
+
+.contents .section h2.ghost {
+  background-image: url(images/Halloween/ghost.png);
+  background-position: left;
+  color: azure;
+  text-indent: 260px;
+}
+
+.contents .section p {
+  line-height: 1.5;
+}
+
+.footer {
+  background-color: black;
+  border-radius: 30px;
+  padding: 20px;
+  text-align: center;
+  color: #88643a;
+}

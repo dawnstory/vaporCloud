@@ -1,26 +1,42 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pokemon</title>
-        <link rel="stylesheet" href="/styles/style.css">
-        <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <title>Halloween</title>
+        <link rel="stylesheet" href="HalloweenStyle.css">
+        <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
     </head>
     <body>
-      <div class="pokemon firey">
-        <img src="/images/firey.png" alt="">
-        <h1>Firey</h1>
-        <p><span>Pikachu</span> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-        <!-- width, height은 inline X, padding margin OK -->
-      </div>
-      <div class="pokemon pikachu">
-        <img src="/images/pikachu.png" alt="">
-        <h1>Pikachu</h1>
-        <p><span>Pikachu</span> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
-      </div>
-      <div class="pokemon cobook">
-        <img src="/images/cobook.png" alt="">
-        <h1>Cobook</h1>
-        <p><span>Pikachu</span> ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient.</p>
+      <div class="wrapper">
+        <div class="header">
+          <img class="logo"src="images/Halloween/logo.png" alt="">
+          <ul class="menu">
+            <li><a href="#">Jack O Lantern</a></li>
+            <li><a href="#">Wicked</a></li>
+            <li><a href="#">Bat&Moon</a></li>
+            <li><a href="#">Ghost&Casper</a></li>
+          </ul>
+        </div>
+        <div class="contents">
+          <div class="section">
+            <h2>Jack O lanttern</h2>
+            <p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifen</p>
+          </div>
+          <div class="section">
+            <h2 class="wicked">Wicked</h2>
+            <p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifen</p>
+          </div>
+          <div class="section">
+            <h2 class="bat">Bat&Moon</h2>
+            <p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifen</p>
+          </div>
+          <div class="section">
+            <h2 class="ghost">Ghost&Casper</h2>
+            <p>dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifen</p>
+          </div>
+        </div>
+        <div class="footer">
+          veamCamp Korea 2015
+        </div>
       </div>
     </body>
 </html>

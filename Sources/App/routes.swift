@@ -7,12 +7,25 @@ public func routes(_ router: Router) throws {
         return "Hello, world!"
     }
     
+    router.get("hello",String.parameter) { req -> String in
+        let name = try! req.parameters.next(String.self)
+        return "hello, \(name)"
+    }
+    
     router.get("hello", "vapor") { req -> String in
         return "Hello Vapor"
     }
     
     router.get("hi","collector") { req -> String in
         return "Hi Collector"
+    }
+    
+    router.post(InfoData.self, at:"info") { req, data -> String in
+        return "hello \(data.name)"
+    }
+    
+    router.post(InfoData.self, at:"info") { req, data -> InfoResponse in
+        return InfoResponse(request: data)
     }
 
     // Example of configuring a controller
@@ -23,4 +36,12 @@ public func routes(_ router: Router) throws {
     
     let websiteController = WebsiteController()
     try router.register(collection: websiteController)
+}
+
+struct InfoData:Content {
+    let name: String
+}
+
+struct InfoResponse:Content {
+    let request: InfoData
 }
